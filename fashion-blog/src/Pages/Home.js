@@ -1,7 +1,12 @@
+import Header from "../Components/Header"
+import Footer from "../Components/Footer"
+
+
 export default function Home (props){
     return (
   <div>
-    <h1>Sartre's List</h1>;
+    <Header />
+    <Footer />
 
   </div>
     

@@ -1,3 +1,88 @@
-.footer {
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+.header {
+  
+  width: 96vw;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
+
+.topheader {
   color: red;
+  font-size: 3rem;
+}
+.bottomheader{
+  font-size: 1.3rem;
+  font-weight: 400;
+ 
+}
+
+.nav {
+  display: flex;
+  width: 96vw;
+  margin: auto auto;
+  /* border: 2px solid red; */
+  flex-direction: row;
+  justify-content: space-between;
+  row-gap: 1rem;
+}
+.nav link {
+   color: rgb(83, 83, 83);
+   size: 2rem;
+}
+
+.date {
+   color: rgb(125, 125, 125);
+   font-weight: 400;
+   padding-bottom: 0;
+   margin-bottom: 0;
+}
+
+.article {
+  width: 96vw;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  /* justify-content: center; */
+  /* align-items: center; */
+  border-bottom:3px solid rgb(182, 182, 182) ;
+  /* border: 2px  */
+  margin: auto auto;
+  }
+
+  .article p::first-letter {
+     font-size:200%;
+  }
+
+  
+.title {
+  padding-top: 0;
+  margin-top: 0;
+}
+.continue {
+margin-left: auto;
+color: red;
+
+}
+
+.paragraph {
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  row-gap: 1rem;
+  margin-top: 3rem;
+  padding-bottom: 3rem;
+}
+.footer link {
+   color: rgb(83, 83, 83);
+   
 }
